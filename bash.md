@@ -5,5 +5,10 @@
   ```shell
   $ df
   $ df -m
-
-
+  ```
+2. ls:
+  Use this command to know what files exist in the directory you are currently in. ls -a to see the hidden files as well.
+  
+  ```shell
+  $ ls
+  $ ls -a
