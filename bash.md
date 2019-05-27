@@ -21,3 +21,16 @@
   $ cd Downloads --> go to downloads
   $ cd ..  --> go to previoud folder
   ```
+4. mkdir:
+  Command to create a new directory/folder within the current directory. To create a directory name with spaces use '\' (backslash) instead of giving a space.
+  
+  ```shell
+  $ mkdir Example\Directory
+  ```
+5. rm:
+  Command to delete files or directories. 'rm -r' to delete only the directory and not the files in that directory.
+  
+  ```shell
+  $ rm Example\Directory
+  $ rm script.py
+  
