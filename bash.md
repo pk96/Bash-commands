@@ -3,7 +3,7 @@
 1. df:
   Shows the available disk space in each of the disk partitions on the system. df -m to see space in megabytes.
   ```shell
-  ~$ df
-  ~$ df -m
+  $ df
+  $ df -m
 
 
