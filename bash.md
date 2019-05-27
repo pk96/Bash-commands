@@ -31,6 +31,6 @@
   Command to delete files or directories. 'rm -r' to delete only the directory and not the files in that directory.
   
   ```shell
-  $ rm Example\Directory
+  $ rm -r Example\Directory
   $ rm script.py
   
