@@ -78,4 +78,31 @@
   ```shell:
   $ cat script.py --> displays the python code
   ```
- 13. 
+ 13. nano, vi:
+  Nano and vi are built in text editors in the Unix terminal . The nano command is a good text editor that denotes keywords with color and can recognize most languages. And vi is simpler than nano. We can create a new file or modify existing files using nano.
+  
+  ```shell
+  $ nano newtext.txt --> creates a new .txt file and opens the editor for us to make any necessary changes
+  ```
+ 14. sudo:
+  Stand for 'SuperUser Do'. This command is used when we need to run any command with admin or root privileges. If we need root permissions to modify a file, we can run the following command
+  
+  ```shell
+  $ sudo nano config.txt
+  ```
+ 15. du:
+  Similar to the df command, but 'du' shows disk usage of a particular file or folder in the system.
+  
+  ```shell
+  $ du Downloads
+  ```
+ 16. zip, unzip:
+  Use zip to compress files into a zip archive, and unzip to extract files from a zip archive.
+ 
+ 17. ping:
+  Use 'ping' to check your connection to a server.
+  
+  ```shell:
+  $ ping google.com
+  ```
+ 
