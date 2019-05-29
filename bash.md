@@ -105,4 +105,23 @@
   ```shell:
   $ ping google.com
   ```
+ 18. hostname:
+  This command displays the name of the host machine, to view the host IP address instead we add the argument '-I'.
+  
+  ```shell:
+  $ hostname -I
+  ```
+ 19. chmod:
+  'chmod' is used to make a file executable and to change the permissions granted to it in Linux. Imagine you have a python code named numbers.py in your computer. You'll need to run “python numbers.py” every time you need to run it. Instead of that, when you make it executable, you'll just need to run “numbers.py” 
+  
+  ```shell
+  $ chmod +x numbers.py
+  ```
+ 20. apt-get:
+  'apt' is used when working with packages through the command line. 'apt-get' is used to install packages. We add the 'sudo' command when we require admin privileges to install a package.
+  
+  ```shell
+  $ suda apt-get install jed --> jed is another linux command line text editor
+  ```
+  
  
