@@ -121,7 +121,7 @@
   'apt' is used when working with packages through the command line. 'apt-get' is used to install packages. We add the 'sudo' command when we require admin privileges to install a package.
   
   ```shell
-  $ suda apt-get install jed --> jed is another linux command line text editor
+  $ sudo apt-get install jed --> jed is another linux command line text editor
   ```
   
  
