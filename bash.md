@@ -33,4 +33,49 @@
   ```shell
   $ rm -r Example\Directory
   $ rm script.py
+  ```
+6. touch:
+  The touch command is used to create a new file. It can be any type of file, like a text file or a python script.
   
+  ```shell
+  $ touch newfile.txt
+  ```
+7. man:
+  To know more about a certain command and how to use it, we use the man command. It shows the documentation of that command. 
+  
+  ```shell
+  $ man cd --> shows documentation of cd command
+  ```
+8. cp:
+  The command for copying files through the command line. Takes two arguments, first is the path of the file to be copied, and the second is where that file should be copied to.
+  
+  ```shell
+  $ cp setup.exe /Downloads
+  ```
+9. mv:
+  We can use 'mv' to move files throught the command line, or to rename a file. Takes two arguments just like the 'cp' command.
+ 
+ ```shell
+ $ mv newfile.txt new.txt --> renames newfile.txt to new.txt
+ $ mv new.txt /Desktop --> moves new.txt to the desktop
+ ```
+10. locate:
+  Use this command to find where exactly a file is located. Useful when we dont know or remember where a file is saved. Use the '-i' argument to ignore case. Use an asterisk to separate words if there is more than one word.
+  
+  ```shell
+  $ locate -i script.py
+  $ locate -i new*doc.txt
+  ```
+ 11. echo: 
+  The echo command helps us move data (usually text) into a file. 
+  
+  ```shell
+  $ echo Hello World >> new.txt 
+  ```
+ 12. cat:
+  The cat command is used to display the contents of any file, for example scripts or text files.
+  
+  ```shell:
+  $ cat script.py --> displays the python code
+  ```
+ 13. 
