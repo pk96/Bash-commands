@@ -8,6 +8,7 @@
   $ df -m
   ```
 2. ls:
+
   Use this command to know what files exist in the directory you are currently in. 'ls -a' to see the hidden files as well.
   
   ```shell
@@ -15,6 +16,7 @@
   $ ls -a
   ```
 3. cd:
+
   Use 'cd' command to go to any directory. For example, to go to the Downloads folder, 'cd Downloads'. Case sensitive command. 
   
   ```shell
@@ -23,12 +25,14 @@
   $ cd ..  --> go to previoud folder
   ```
 4. mkdir:
+
   Command to create a new directory/folder within the current directory. To create a directory name with spaces use '\' (backslash) instead of giving a space.
   
   ```shell
   $ mkdir Example\Directory
   ```
 5. rm:
+
   Command to delete files or directories. 'rm -r' to delete only the directory and not the files in that directory.
   
   ```shell
@@ -36,24 +40,28 @@
   $ rm script.py
   ```
 6. touch:
+
   The touch command is used to create a new file. It can be any type of file, like a text file or a python script.
   
   ```shell
   $ touch newfile.txt
   ```
 7. man:
+
   To know more about a certain command and how to use it, we use the man command. It shows the documentation of that command. 
   
   ```shell
   $ man cd --> shows documentation of cd command
   ```
 8. cp:
+
   The command for copying files through the command line. Takes two arguments, first is the path of the file to be copied, and the second is where that file should be copied to.
   
   ```shell
   $ cp setup.exe /Downloads
   ```
 9. mv:
+
   We can use 'mv' to move files throught the command line, or to rename a file. Takes two arguments just like the 'cp' command.
  
  ```shell
@@ -61,6 +69,7 @@
  $ mv new.txt /Desktop --> moves new.txt to the desktop
  ```
 10. locate:
+
   Use this command to find where exactly a file is located. Useful when we dont know or remember where a file is saved. Use the '-i' argument to ignore case. Use an asterisk to separate words if there is more than one word.
   
   ```shell
@@ -68,57 +77,67 @@
   $ locate -i new*doc.txt
   ```
  11. echo: 
+ 
   The echo command helps us move data (usually text) into a file. 
   
   ```shell
   $ echo Hello World >> new.txt 
   ```
  12. cat:
+ 
   The cat command is used to display the contents of any file, for example scripts or text files.
   
   ```shell:
   $ cat script.py --> displays the python code
   ```
  13. nano, vi:
+ 
   Nano and vi are built in text editors in the Unix terminal . The nano command is a good text editor that denotes keywords with color and can recognize most languages. And vi is simpler than nano. We can create a new file or modify existing files using nano.
   
   ```shell
   $ nano newtext.txt --> creates a new .txt file and opens the editor for us to make any necessary changes
   ```
  14. sudo:
+ 
   Stand for 'SuperUser Do'. This command is used when we need to run any command with admin or root privileges. If we need root permissions to modify a file, we can run the following command
   
   ```shell
   $ sudo nano config.txt
   ```
  15. du:
+ 
   Similar to the df command, but 'du' shows disk usage of a particular file or folder in the system.
   
   ```shell
   $ du Downloads
   ```
  16. zip, unzip:
+ 
   Use zip to compress files into a zip archive, and unzip to extract files from a zip archive.
  
  17. ping:
+ 
   Use 'ping' to check your connection to a server.
   
   ```shell:
   $ ping google.com
   ```
  18. hostname:
+ 
   This command displays the name of the host machine, to view the host IP address instead we add the argument '-I'.
   
   ```shell:
   $ hostname -I
   ```
  19. chmod:
+ 
   'chmod' is used to make a file executable and to change the permissions granted to it in Linux. Imagine you have a python code named numbers.py in your computer. You'll need to run “python numbers.py” every time you need to run it. Instead of that, when you make it executable, you'll just need to run “numbers.py” 
   
   ```shell
   $ chmod +x numbers.py
   ```
  20. apt-get:
+ 
   'apt' is used when working with packages through the command line. 'apt-get' is used to install packages. We add the 'sudo' command when we require admin privileges to install a package.
   
   ```shell
