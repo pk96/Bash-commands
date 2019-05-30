@@ -22,7 +22,7 @@
   ```shell
   $ cd  --> to go to home directory
   $ cd Downloads --> go to downloads
-  $ cd ..  --> go to previoud folder
+  $ cd ..  --> go to previous folder
   ```
 4. mkdir:
 
@@ -143,5 +143,51 @@
   ```shell
   $ sudo apt-get install jed --> jed is another linux command line text editor
   ```
-  
+ 21. head, tail:
  
+  Output the beginning or the ending of a file.
+  
+  ```shell
+  $ head data.csv
+  $ tail data.csv
+  ```
+ 22. wc:
+ 
+  Output a count of the number of characters, lines, words, etc. in a file.
+  
+  ```shell
+  $ wc -l --> displays number of lines in a file
+  $ wc -w --> displays number of words in a file
+  $ wc -c --> displays the count of bytes in a file
+  $ wc -m --> displays the count of characters in a file
+  $ wc -L --> prints the length of the longest line in a file
+  ```
+ 23. grep:
+ 
+  The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.
+  
+  ```shell
+  $ grep 'word' file --> searches file for the expression 'word'
+  $ grep -l 'word' file1 file2 file3 --> displays list of filenames that contain 'word'
+  $ grep -i 'word' file --> case insensitive search
+  $ grep -w 'word' file1 --> match whole expression
+  ```
+ 24. sort:
+ 
+  Command line function for sorting lines of text files. It supports sorting alphabetically, in reverse order, by number, by month and can also remove duplicates.
+  
+  ```shell
+  $ sort input.txt
+  $ sort -r input.txt --> sort in reverse order
+  $ sort -n inputnumbers.txt --> sort file numerically
+  $ sort -nr inputnumbers.txt --> sort file numerically in reverse order
+  $ sort -c input.txt --> checks if file is already sprted or not
+  $ sort -u input.txt --> sorts and removes duplicates
+  ```
+ 25. time:
+ 
+  Displays execution time of the command being run.
+  
+  ```shell
+  $ time script.py
+  ```
