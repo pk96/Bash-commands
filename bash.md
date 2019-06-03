@@ -76,74 +76,74 @@
   $ locate -i script.py
   $ locate -i new*doc.txt
   ```
- 11. echo: 
+11. echo: 
  
   The echo command helps us move data (usually text) into a file. 
   
   ```shell
   $ echo Hello World >> new.txt 
   ```
- 12. cat:
+12. cat:
  
   The cat command is used to display the contents of any file, for example scripts or text files.
   
   ```shell:
   $ cat script.py --> displays the python code
   ```
- 13. nano, vi:
+13. nano, vi:
  
   Nano and vi are built in text editors in the Unix terminal . The nano command is a good text editor that denotes keywords with color and can recognize most languages. And vi is simpler than nano. We can create a new file or modify existing files using nano.
   
   ```shell
   $ nano newtext.txt --> creates a new .txt file and opens the editor for us to make any necessary changes
   ```
- 14. sudo:
+14. sudo:
  
   Stand for 'SuperUser Do'. This command is used when we need to run any command with admin or root privileges. If we need root permissions to modify a file, we can run the following command
   
   ```shell
   $ sudo nano config.txt
   ```
- 15. du:
+15. du:
  
   Similar to the df command, but 'du' shows disk usage of a particular file or folder in the system.
   
   ```shell
   $ du Downloads
   ```
- 16. zip, unzip:
+16. zip, unzip:
  
   Use zip to compress files into a zip archive, and unzip to extract files from a zip archive.
  
- 17. ping:
+17. ping:
  
   Use 'ping' to check your connection to a server.
   
   ```shell:
   $ ping google.com
   ```
- 18. hostname:
+18. hostname:
  
   This command displays the name of the host machine, to view the host IP address instead we add the argument '-I'.
   
   ```shell:
   $ hostname -I
   ```
- 19. chmod:
+19. chmod:
  
   'chmod' is used to make a file executable and to change the permissions granted to it in Linux. Imagine you have a python code named numbers.py in your computer. You'll need to run “python numbers.py” every time you need to run it. Instead of that, when you make it executable, you'll just need to run “numbers.py” 
   
   ```shell
   $ chmod +x numbers.py
   ```
- 20. apt-get:
+20. apt-get:
  
   'apt' is used when working with packages through the command line. 'apt-get' is used to install packages. We add the 'sudo' command when we require admin privileges to install a package.
   
   ```shell
   $ sudo apt-get install jed --> jed is another linux command line text editor
   ```
- 21. head, tail:
+21. head, tail:
  
   Output the beginning or the ending of a file.
   
@@ -151,7 +151,7 @@
   $ head data.csv
   $ tail data.csv
   ```
- 22. wc:
+22. wc:
  
   Output a count of the number of characters, lines, words, etc. in a file.
   
@@ -162,7 +162,7 @@
   $ wc -m --> displays the count of characters in a file
   $ wc -L --> prints the length of the longest line in a file
   ```
- 23. grep:
+23. grep:
  
   The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.
   
@@ -172,7 +172,7 @@
   $ grep -i 'word' file --> case insensitive search
   $ grep -w 'word' file1 --> match whole expression
   ```
- 24. sort:
+24. sort:
  
   Command line function for sorting lines of text files. It supports sorting alphabetically, in reverse order, by number, by month and can also remove duplicates.
   
@@ -184,10 +184,23 @@
   $ sort -c input.txt --> checks if file is already sprted or not
   $ sort -u input.txt --> sorts and removes duplicates
   ```
- 25. time:
+25. time:
  
   Displays execution time of the command being run.
   
   ```shell
   $ time script.py
   ```
+26. ps:
+  
+  Displays the currently running processes. Shows the PID (process id), TTY (name of console user is logged into), the CPU time the process has been running and the name of the command that launched the process.
+  
+  ```shell
+  $ ps
+  $ ps -e --> list all processes on the system
+  ```
+27. top:
+
+  This command displays processor activity of your Linux box and also displays tasks managed by kernel in real-time. It’ll show how processor and memory are being used and other information like running processes.
+  
+28. 
