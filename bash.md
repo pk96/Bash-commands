@@ -223,3 +223,20 @@
   fi
   ```
 30. for, while: (shell scripting)
+  
+  The for loop operates on lists of items. It repeats a set of commands for every item in a list.
+  The while loop enables you to execute a set of commands repeatedly until some condition occurs. It is usually used when you need to manipulate the value of a variable repeatedly.
+  
+  ```shell
+  for var in 0 1 2 3 4 5 6 7 8 9
+  do
+    echo $var
+  done
+  
+  a=0
+  while [ $a -lt 10]
+  do
+    echo $a
+    a = 'expr $a + 1'
+  done
+  ```
