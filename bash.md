@@ -48,6 +48,7 @@ ___
   ```
 
 #### **File Operations:**
+---
 
 6. rm: 
 
@@ -81,6 +82,7 @@ ___
  ```
 
 #### **File Examination & Permissions:**
+---
 
 10. cat: 
  
@@ -124,6 +126,7 @@ ___
   ```
 
 #### **Searching and Sorting:**
+---
 
 15. locate:
 
@@ -157,6 +160,7 @@ ___
   ```
 
 #### **Compression:**
+---
 
 18. zip, unzip:
  
@@ -168,6 +172,7 @@ ___
 
 
 #### **System Information:**
+---
 
 20. time: 
  
@@ -182,6 +187,7 @@ ___
 
 
 #### **Process Management:**
+---
 
 22. ps: 
   
@@ -200,6 +206,7 @@ ___
   
 
 #### **Users and Groups:**
+---
 
 25. sudo: 
  
@@ -214,6 +221,7 @@ ___
 
 
 #### **Multi-user environments:**
+---
 
 27. hostname: 
  
@@ -225,6 +233,7 @@ ___
 
 
 #### **Text editors:**
+---
 
 28. nano, vi: 
  
@@ -236,6 +245,7 @@ ___
 
 
 #### **Network:**
+---
 
 29. ping:
  
@@ -247,6 +257,7 @@ ___
 
 
 #### **Shell Scripting:**
+---
 
 30. echo: 
  
@@ -291,6 +302,7 @@ ___
 
 
 #### **Download and Install packages:**
+---
   
 33. apt-get: (packages)
  
