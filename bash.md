@@ -288,7 +288,7 @@
   ```
 
 
-#### **Download and Install packages: **
+#### **Download and Install packages:**
   
 33. apt-get: (packages)
  
