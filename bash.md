@@ -18,7 +18,7 @@
   $ man cd --> shows documentation of cd command
   ```
 
-#### ** Directories:**
+#### **Directories:**
 
 3. ls: 
 
@@ -78,7 +78,7 @@
  $ mv new.txt /Desktop --> moves new.txt to the desktop
  ```
 
-#### **File Examination & Permissions: **
+#### **File Examination & Permissions:**
 
 10. cat: 
  
@@ -121,7 +121,7 @@
   $ chmod +x numbers.py
   ```
 
-#### **Searching and Sorting: **
+#### **Searching and Sorting:**
 
 15. locate:
 
@@ -154,7 +154,7 @@
   $ sort -u input.txt --> sorts and removes duplicates
   ```
 
-#### **Compression: **
+#### **Compression:**
 
 18. zip, unzip:
  
@@ -165,7 +165,7 @@
   Unix archiving/de-archiving program.
 
 
-#### **System Information: **
+#### **System Information:**
 
 20. time: 
  
@@ -197,7 +197,7 @@
   A special character. When '&' is places at the end of a command, that command is run in the background. i.e. Shell does not wait for the command to finish executing before returning to the input prompt.
   
 
-#### **Users and Groups: **
+#### **Users and Groups:**
 
 25. sudo: 
  
@@ -222,7 +222,7 @@
   ```
 
 
-#### **Text editors: **
+#### **Text editors:**
 
 28. nano, vi: 
  
@@ -233,7 +233,7 @@
   ```
 
 
-#### **Network: **
+#### **Network:**
 
 29. ping:
  
@@ -244,7 +244,7 @@
   ```
 
 
-#### **Shell Scripting: **
+#### **Shell Scripting:**
 
 30. echo: 
  
@@ -288,7 +288,7 @@
   ```
 
 
-### **Download and Install packages: **
+#### **Download and Install packages: **
   
 33. apt-get: (packages)
  
