@@ -1,4 +1,4 @@
-## **Important bash commands with a brief description and example**
+---## **Important bash commands with a brief description and example**---
 
 
 #### **Basic Shell:** 
